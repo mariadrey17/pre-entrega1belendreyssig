@@ -7,7 +7,7 @@
 //la consola va a mostrar nombre , curso y notafinal del alumno
 
 
-
+//ingreso de datos
 
 for  (let  i=1  ; i <= 4 ; i++) {
     let nombre= prompt ("ingresa tu nombre");
@@ -19,7 +19,7 @@ for  (let  i=1  ; i <= 4 ; i++) {
     console .log ( nombre ,curso);
     
     
-    
+    //acáempieza funcion sumarpromedio
     
     function sumarPromedio (nota1,nota2,nota3){
         let notafinal =nota1 +nota2 + nota3;
@@ -54,3 +54,4 @@ for  (let  i=1  ; i <= 4 ; i++) {
   
   
   }
+  //muestra por consola nombre curso y promedio final
